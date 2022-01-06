@@ -17,9 +17,9 @@ print("Started")
 
 
 try:
-    while True:
-        if read_graphics()["ACC_STATUS"] == 2:
-            if read_graphics()["iSplit"] < 300:
+    while True:                                                                             # starts an infinite loop
+        if read_graphics()["ACC_STATUS"] == 2:                                              # skips the checks if the script is started before any actual track time
+            if read_graphics()["iSplit"] < 300:                                             # combined with the sleep() command later
 
                 # Collect the data for the sector
                 stageData = {
