@@ -9,7 +9,7 @@ import pandas as pd
 currentDateTime = datetime.datetime.now()
 timestamp = currentDateTime.strftime("%Y_%m_%d_%H_%M_%S")
 filename = timestamp + ".csv"
-output = Path.cwd() / "logs" / filename
+output = Path.cwd() / "logs" / filename                                                     # edit to suit, path / folder MUST exist!
 data = []
 
 
