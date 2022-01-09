@@ -65,11 +65,8 @@ try:
 
                 }
 
-                if stageData["Last_Lap_Time"] == 2147483647:
-                    stageData["Last_Lap_Time"] = "NULL"
 
-
-                print("Appending Data |", read_graphics()["iCurrentTime"], "|", millisecondsToTime(read_graphics()["iLastTime"]))
+                print("Appending Data |", millisecondsToTime(read_graphics()["iLastTime"]))
                 data.append(stageData)
 
 
