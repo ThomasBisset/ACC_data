@@ -1,3 +1,5 @@
+# up to date as of 1.8.12
+
 import time
 import math
 
@@ -136,6 +138,16 @@ def car(car):
         return "Mercedes AMG GT3 Evo 2020"
     elif car == "bmw_m4_gt3":
         return "BMW M4 vGT3 2021"
+    elif car == "audi_r8_lms_evo_ii":
+        return "Audi R8 LMS Evo II 2022"
+    elif car == "bmw_m2_cs_racing":
+        return "BMW M2 Cup 2020"
+    elif car == "ferrari_488_challenge_evo":
+        return "Ferrari 488 Challenge Evo 2020"
+    elif car == "lamborghini_huracan_st_evo2":
+        return "Lamborghini Huracan ST Evo2 2021"
+    elif car == "porsche_992_gt3_cup":
+        return "Porsche 992 GT3 Cup 2021 "
     else:
         return "NULL"
 
